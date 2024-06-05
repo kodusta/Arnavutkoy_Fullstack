@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        transform: rotateX(18deg) perspective(100px);
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        margin: 100px;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75),
+          10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: background-color 1s, transform 1s;
+        transition: width 1s, height 1s;
+      }
+      .box:hover {
+        background-color: rgba(255, 255, 255, 1);
+        transform: rotateX(50deg) perspective(100px) rotateY(280deg);
+        width: 300px;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
