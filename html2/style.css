@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 90vh;
+  margin-bottom: 500px;
+}
+
+section {
+  text-align: center;
+  padding: 1rem;
+  flex: 1;
+}
+
+.kare {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 0;
+}
+
+.daire {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
