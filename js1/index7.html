@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function loadText() {
+        var text = document.getElementById("text").innerText("Hello World");
+        alert(text);
+      }
+      function addText() {
+        var text = document.getElementById("text").innerText;
+        text += "Hello World";
+        document.getElementById("text").innerText = text;
+      }
+      function count() {
+        var count = document.getElementById("count").innerText;
+        count = count + 5;
+        document.getElementById("count").innerText = count;
+      }
+      function clear() {
+        var sayi = 0;
+        var count = document.getElementById("count").innerText;
+        count == sayi;
+        document.getElementById("count").innerText = count;
+      }
+      function additem() {
+        var additem = document.getElementById("additem").innerHTML;
+        additem += "<button>Item</button>";
+        document.getElementById("additem").innerHTML = additem;
+      }
+    </script>
+  </head>
+  <body>
+    <div id="text"></div>
+    <br />
+    <button id="button" onclick="loadText()">Get Text</button>
+    <hr />
+    <button onclick="addText()">Add Text</button>
+    <hr />
+    <button onclick="count()">Count</button>
+    <button onclick="clear()">clear</button>
+    <hr />
+    <h1 id="count">0</h1>
+    <hr />
+    <button onclick="additem()">Add Item</button>
+    <div id="additem"></div>
+  </body>
+</html>
