@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="script2.js"></script>
     <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
     <div class="container">
       <div class="item">
-        <button onclick="hesapmakinası()">Basit Hesap Makinası</button>
-        <div id="hesapmakinası" class="hesap">
+        <button onclick="hesapmakinasi()">Basit Hesap Makinası</button>
+        <div id="hesapmakinasi" class="hesap">
           <label>Hesap Makinası</label><br />
-          <input type="text" id=""inputhesap" /><br /><br />
+          <input type="text" id="inputhesap" /><br /><br />
           <button onclick="hesapla()">Hesapla</button>
         </div>
       </div>
@@ -26,7 +25,7 @@
         <b>Hava Çok Sıcak</b>
       </div>
       <div class="item">
-        <input type="text" class="display" />
+        <input type="text" class="display" readonly />
         <div class="btn-group">
           <button class="button">1</button>
           <button class="button">2</button>
@@ -98,11 +97,13 @@
               <td>İsim</td>
               <td>Kullanıcı Adı</td>
               <td>Email</td>
+              <td>Telefon</td>
             </tr>
           </thead>
           <tbody class="alldata3"></tbody>
         </table>
       </div>
     </div>
+    <script src="script2.js"></script>
   </body>
 </html>
