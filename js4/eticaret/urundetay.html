@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+    header - logo - link
+    ekranı 2 ye bölüp sol tarafta ürün resmi
+    sağ tarafta ürün adı açıklaması sepete ekle paylaş butonları
+    ürün detaylı açıklama 
+    altında benzer ürünler bölümü 4 adet ürün listelenecek 
+    -->
+    <div class="container">
+      <header class="header">
+        <div class="col2">
+          <a href="index.html">
+            <img src="logo.png" alt="logo" class="logo" />
+          </a>
+        </div>
+        <div class="col10">
+          <nav class="nav">
+            <div class="nav__item">
+              <a href="index.html" class="nav__link">Anasayfa</a>
+            </div>
+            <div class="nav__item">
+              <a href="urundetay.html" class="nav__link">Urun Detay</a>
+            </div>
+            <div class="nav__item">
+              <a href="sepet.html" class="nav__link">Sepet</a>
+            </div>
+            <div class="nav__item">
+              <a href="hakkimizda.html" class="nav__link">Hakkımızda</a>
+            </div>
+            <div class="nav__item">
+              <a href="iletisim.html" class="nav__link">İletişim</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="main">
+        <div class="col6">
+          <img src="productdetail.png" alt="Cep Telefonu" class="product_img" />
+        </div>
+
+        <div class="col6">
+          <h2 class="product_title">Ürün Adı</h2>
+          <p class="short_desc">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+            fugiat aut minima dolorum soluta neque enim laboriosam debitis quam,
+            sit magni praesentium facere expedita, doloremque sint eveniet
+            architecto mollitia atque!
+          </p>
+          <p class="product_price">100 ₺</p>
+          <input type="number" class="product_count" value="1" />
+          <button class="add_to_cart">Sepete Ekle</button>
+          <button class="share">Paylaş</button>
+        </div>
+        <div class="col12">
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nisi
+            perspiciatis asperiores officia placeat corrupti, eligendi ullam
+            explicabo error eveniet mollitia alias veniam hic consectetur
+            perferendis nobis dolore blanditiis architecto.<br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nisi
+            perspiciatis asperiores officia placeat corrupti, eligendi ullam
+            explicabo error eveniet mollitia alias veniam hic consectetur
+            perferendis nobis dolore blanditiis architecto.<br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nisi
+            perspiciatis asperiores officia placeat corrupti, eligendi ullam
+            explicabo error eveniet mollitia alias veniam hic consectetur
+            perferendis nobis dolore blanditiis architecto.<br />
+          </p>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="col4">
+          <a href="index.html" class="footer_logo_link">
+            <img src="logo.png" alt="logo" class="footer_logo" />
+          </a>
+        </div>
+        <div class="col8">
+          <div class="footer_nav">
+            <div class="footer_nav_item">
+              <div class="footer_nav_title">
+                <a href="index.html" class="footer_nav_link">Anasayfa</a>
+              </div>
+              <div class="footer_nav_title">
+                <a href="urundetay.html" class="footer_nav_link">Ürün Detay</a>
+              </div>
+              <div class="footer_nav_title">
+                <a href="sepet.html" class="footer_nav_link">Sepet</a>
+              </div>
+              <div class="footer_nav_title">
+                <a href="hakkimizda.html" class="footer_nav_link">Hakkımızda</a>
+              </div>
+              <div class="footer_nav_title">
+                <a href="iletisim.html" class="footer_nav_link">İletişim</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

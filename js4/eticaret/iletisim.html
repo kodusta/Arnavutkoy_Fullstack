@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+    header - logp - link
+    adres ve telefon bilgileri
+    bir adet form ->isim soyisim telefon konu mesajınız tıklayınca
+     alert olarak tüm bilgileri sunacak
+    altında tam sayfa harita
+    -->
+    <div class="container">
+      <header class="header">
+        <div class="col2">
+          <a href="index.html">
+            <img src="logo.png" alt="logo" class="logo" />
+          </a>
+        </div>
+        <div class="col10">
+          <nav class="nav">
+            <div class="nav__item">
+              <a href="index.html" class="nav__link">Anasayfa</a>
+            </div>
+            <div class="nav__item">
+              <a href="urundetay.html" class="nav__link">Urun Detay</a>
+            </div>
+            <div class="nav__item">
+              <a href="sepet.html" class="nav__link">Sepet</a>
+            </div>
+            <div class="nav__item">
+              <a href="hakkimizda.html" class="nav__link">Hakkımızda</a>
+            </div>
+            <div class="nav__item">
+              <a href="iletisim.html" class="nav__link">İletişim</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="main">
+        <div class="address">
+          <h2 class="address_title">Adres ve Telefon Bilgilerimiz</h2>
+          <p class="address_address">İstinye / İstanbul</p>
+          <p class="address_phone">0555 555 55 55</p>
+        </div>
+        <div class="form">
+          <h2 class="form_title">Bize Ulaşın!!!</h2>
+          <form action="index.html" method="get">
+            <input
+              type="text"
+              name="name_surname"
+              class="name"
+              placeholder="Adınız Soyadınız"
+            />
+            <input
+              type="phone"
+              name="phone"
+              class="phone"
+              placeholder="Telefon Numaranız"
+            />
+            <input
+              type="text"
+              name="subject"
+              class="subject"
+              placeholder="Konu"
+            />
+            <textarea
+              name="messaga"
+              class="message"
+              placeholder="Mesajınız"
+            ></textarea>
+            <button type="submit" class="btn-submit">Gönder</button>
+          </form>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="col4">
+          <a href="index.html" class="footer_logo_link">
+            <img src="logo.png" alt="logo" class="footer_logo" />
+          </a>
+        </div>
+        <div class="col8">
+          <div class="footer_nav">
+            <div class="footer_nav_item">
+              <div class="footer_nav_title">
+                <a href="index.html" class="footer_nav_link">Anasayfa</a>
+              </div>
+              <div class="footer_nav_title">
+                <a href="urundetay.html" class="footer_nav_link">Ürün Detay</a>
+              </div>
+              <div class="footer_nav_title">
+                <a href="sepet.html" class="footer_nav_link">Sepet</a>
+              </div>
+              <div class="footer_nav_title">
+                <a href="hakkimizda.html" class="footer_nav_link">Hakkımızda</a>
+              </div>
+              <div class="footer_nav_title">
+                <a href="iletisim.html" class="footer_nav_link">İletişim</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
