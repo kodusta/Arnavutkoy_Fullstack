@@ -1,7 +1,12 @@
 .bg-primary {
-    /* background-color: brown !important;*/
+    /* background-color: brown !important; ödev 1*/
 }
 
 body {
     background-color: #42484e;
+}
+
+.btn-warning {
+    /* background-color: #dbfc00 !important;
+    border-color: #e1ff00 !important;*/
 }
